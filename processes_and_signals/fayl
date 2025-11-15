@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# İstifadəçidən fayl adını alır
+read -p "Fayl adını daxil edin: " filename
+
+# Faylı yaradır və ilk sətrə shebang yazır
+echo "#!/usr/bin/env bash" > "$filename"
+
+# Faylı icraolunan edir (opsional)
+chmod +x "$filename"
+
+echo "Fayl yaradıldı: $filename"
+
