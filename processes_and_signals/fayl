@@ -5,6 +5,7 @@ read -p "Fayl adını daxil edin: " filename
 
 # Faylı yaradır və ilk sətrə shebang yazır
 echo "#!/usr/bin/env bash" > "$filename"
+echo "#comment"
 
 # Faylı icraolunan edir (opsional)
 chmod +x "$filename"
