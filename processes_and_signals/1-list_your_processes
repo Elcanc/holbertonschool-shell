@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #comment
-ps -eo user,pid,start,command --forest
+ps -eo user,start,command --forest
 
